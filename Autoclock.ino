@@ -33,15 +33,15 @@
   * 
   */
   
-#include <NTPClient.h>                  // NTP time client
+#include "src/NTPClient/NTPClient.h"                  // NTP time client
 #include <ESP8266WiFi.h>                // ESP8266 WiFi library
-#include <WiFiManager.h>                // Smart WiFi Manager to handle networking - genius! https://github.com/tzapu/WiFiManager
+#include "src/WiFiManager/WiFiManager.h"                // Smart WiFi Manager to handle networking - genius! https://github.com/tzapu/WiFiManager
 #include <WiFiUdp.h>                    // UDP library to transport NTP data
-#include <ArduinoJson.h>                // json library for parsing http results
+#include "src/ArduinoJson/ArduinoJson.h"                // json library for parsing http results
 #include <ESP8266HTTPClient.h>          // ESP8266 http library
-#include<TimeLib.h>                     // Advanced time functions.
+#include "src/Time/TimeLib.h"                     // Advanced time functions.
 #include <Wire.h>                       // I2C functions
-#include <SFE_MicroOLED.h>              // Include the SFE_MicroOLED  library
+#include "src/SparkFun_Micro_OLED_Breakout/SFE_MicroOLED.h"              // Include the SFE_MicroOLED  library
 #define KEY ""               // timezonedb.com API Key
 
 

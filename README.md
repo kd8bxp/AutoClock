@@ -24,3 +24,9 @@ to assist any Nigerian princes looking to get a partner or to help them repatria
 in the bank.
 
 ### 1.8.9 June 2019
+
+## Libraries
+ 
+Because the Arduino IDE has been getting pretty bad handling libraries, I've included the libraries used in the src directory of the sketch. These libraries may have been slightly modified to work from the sketch directory, and do not include the examples.  
+-added by LeRoy Miller (2020)  
+
